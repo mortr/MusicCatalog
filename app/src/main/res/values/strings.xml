@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MusicCatalog</string>
+    <string name="action_settings">Settings</string>
+    <string name="genres_divider">" , "</string>
+    <string name="no_network_connection">Network is not available</string>
+    <string name="error_server_connection">Error server connection</string>
+    <string name="title_main_activity">Artists</string>
+    <string name="text_albums">" albums"</string>
+    <string name="text_single">" singles"</string>
+    <string name="divider_discography">"  *  "</string>
+    <string name="text_data_loaded">Data reloaded</string>
+</resources>

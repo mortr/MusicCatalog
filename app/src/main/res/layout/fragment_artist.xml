@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/artist_draweeV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            fresco:retryImageScaleType="centerCrop"
+            fresco:viewAspectRatio="1"
+            fresco:placeholderImage="@mipmap/ic_launcher"
+            android:paddingBottom="@dimen/padding_for_artist_fragment"
+            />
+
+        <TextView
+            android:paddingTop="@dimen/padding_for_artist_fragment"
+            android:paddingLeft="@dimen/padding_for_artist_fragment"
+            android:id="@+id/artist_genres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextOther"
+            />
+
+        <TextView
+            android:paddingTop="@dimen/padding_for_artist_fragment"
+            android:paddingLeft="@dimen/padding_for_artist_fragment"
+            android:id="@+id/artist_disco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextOther"
+            />
+
+        <TextView
+            android:paddingTop="@dimen/padding_for_artist_fragment"
+            android:paddingLeft="@dimen/padding_for_artist_fragment"
+            android:text="Биография"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MainText"
+
+            />
+
+        <TextView
+            android:padding="@dimen/padding_for_artist_fragment"
+
+            android:id="@+id/artist_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MainText"
+            />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_network_connection">Отсутствует соединение с интернетом</string>
+    <string name="error_server_connection">Ошибка соединения с сервером</string>
+    <string name="title_main_activity">Исполнители</string>
+    <string name="text_albums">" альбомов"</string>
+    <string name="text_single">" песни"</string>
+    <string name="divider_discography">"  *  "</string>
+    <string name="text_data_loaded">Данные обновленны</string>
+</resources>
